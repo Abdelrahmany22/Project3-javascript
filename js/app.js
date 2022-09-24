@@ -53,16 +53,16 @@ e.target.classList.toggle('checked');
     }
 })
 
-// function change(){
-// if(li.href=='file:///H:/ssd/project3/css/dark.css' ){
-//     li.href='file:///H:/ssd/project3/css/light.css'
-// }
-// else{
-//     li.href='file:///H:/ssd/project3/css/dark.css'
+function change(){
+if(li.href=='file:///H:/ssd/project3/css/dark.css' ){
+    li.href='file:///H:/ssd/project3/css/light.css'
+}
+else{
+    li.href='file:///H:/ssd/project3/css/dark.css'
 
-// }
+}
 
-// }
-// toggle.addEventListener('click', change)
+}
+toggle.addEventListener('click', change)
 
 
