@@ -3,7 +3,7 @@ let inp = document.getElementById('input');
 let btn = document.getElementById('btn');
 let not= document.getElementById('not');
 let allt=document.getElementById('allt');
-let toggle=document.getElementById('toggle');
+// let toggle=document.getElementById('toggle');
 let li=document.getElementById('link');
 function addtask(){
     let data=inp.value;
@@ -53,16 +53,16 @@ e.target.classList.toggle('checked');
     }
 })
 
-function change(){
-if(li.href=='file:///H:/ssd/project3/css/dark.css' ){
-    li.href='file:///H:/ssd/project3/css/light.css'
-}
-else{
-    li.href='file:///H:/ssd/project3/css/dark.css'
+// function change(){
+// if(li.href=='file:///H:/ssd/project3/css/dark.css' ){
+//     li.href='file:///H:/ssd/project3/css/light.css'
+// }
+// else{
+//     li.href='file:///H:/ssd/project3/css/dark.css'
 
-}
+// }
 
-}
-toggle.addEventListener('click', change)
+// }
+// toggle.addEventListener('click', change)
 
 
