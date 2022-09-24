@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.card{
+    background-color: gray;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+button{
+    width: 100px;
+    background-color: blue;
+}
+button:hover{
+    background-color: darkblue;
+}
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(0, 255, 0);
+}
