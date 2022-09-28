@@ -3,7 +3,7 @@ let inp = document.getElementById('input');
 let btn = document.getElementById('btn');
 let not= document.getElementById('not');
 let allt=document.getElementById('allt');
-let toggle=document.getElementById('toggle');
+let toggle1=document.getElementById('toggle');
 let li=document.getElementById('link');
 function addtask(){
     let data=inp.value;
@@ -64,6 +64,6 @@ else{
 }
 
 }
-toggle.addEventListener('click', change)
+toggle1.addEventListener('click', change);
 
 
